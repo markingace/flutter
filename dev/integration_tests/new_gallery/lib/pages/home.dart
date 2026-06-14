@@ -931,7 +931,7 @@ class _DesktopPageButton extends StatelessWidget {
               child: InkWell(
                 onTap: onTap,
                 child: Icon(
-                  isEnd ? Icons.arrow_forward_ios : Icons.arrow_back_ios,
+                  isEnd ? Icons.chevron_right : Icons.chevron_left,
                   color: Colors.white,
                 ),
               ),
